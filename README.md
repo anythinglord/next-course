@@ -38,3 +38,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 # Notes
 
 * _lib is a private folder, the "%5F" is the URL-encoded from of a undescore
+* (auth) is a route's group but is excluded form the url. To access those route`s group:
+    * localhost:3000/register instead of localhost:3000/auth/register
