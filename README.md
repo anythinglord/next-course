@@ -40,3 +40,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 * _lib is a private folder, the "%5F" is the URL-encoded from of a undescore
 * (auth) is a route's group but is excluded form the url. To access those route`s group:
     * localhost:3000/register instead of localhost:3000/auth/register
+* use in the metadata **title.absolute** (see app/layout.tsx for a reference) to ignore any rule in the pages or in the pages to ignore the template rule defined in the app/layout.tsx

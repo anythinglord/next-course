@@ -1,5 +1,9 @@
-const Blog = () => {
-    return <h1>Welcome Blog</h1>
+import { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "Blog"
 }
 
-export default Blog
+export default function(){
+    return <h1>Welcome Blog</h1>
+}
